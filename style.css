@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    background-color: grey;
+}
+
+h1,
+h2 {
+    font-family: "Poppins", sans-serif;
+    color: royalblue;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 6px;
+
+}
+.fa{
+    color: whitesmoke;
+    font-size: 3em;
+}
+p,li{
+    color: white;
+}
+nav li {
+    display: inline;
+}
+
+nav a:link {
+    color: white;
+}
+
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    color: slategray;
+}
+
+nav a:active {
+    color: grey;
+}
+nav a{
+    text-decoration: none;
+    padding: 5px;
+}
+
+h1,
+h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: whitesmoke;
+}
+h2{
+    border-bottom: 2px solid white;
+}
+main {
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: grey;
+}
+#home-hero h1{
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 40px;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+    padding: 70px 0;
+    margin: 0;
+}
+.home-photo{
+    float: right;
+    max-width: 50%;
+    height: auto;
+    margin: 50px 0 10px 20px;
+}
+#home-hero{
+    background-image: url(images/blossoms.jpg);
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1 {
+    text-align: center;
+    font-size: 3em;
+}
+
+nav {
+    background-color: black;
+    border-top: 2px darkgrey solid;
+    border-bottom: 2px darkgrey solid;
+    padding: 5px;
+}
+
+footer {
+    text-align: center;
+    border-top: 1px solid;
+    padding: 10px;
+    color: white;
+}
+footer a:link {
+    color: white;
+}
+
+footer a:visited {
+    color: white;
+}
+
+footer a:hover {
+    color: whitesmoke;
+}
+
+footer a:active {
+    color: black;
+}
+.myButton {
+    background-color: hotpink;
+    background-size: cover;
+    background-position: center;
+}
+.logo{
+margin: 0 auto;
+display:block;
+max-width: 300px;
+height: auto;
+}
+header{
+    background-color: white;
+}
